@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.current_container {
+  background-color: #03a9f4;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+}
+.changeLocation {
+  text-transform: capitalize;
+  text-align: right;
+}
+.weather_container {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 40px;
+}
+.temperature_value {
+  font-size: 40px;
+}
+.location {
+  display: flex;
+  font-size: 40px;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+.temperature_description {
+  font-size: 18px;
+}
+.caracteres_day {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+#weather {
+  color: #0288d1;
+  background: #fff;
+  padding: 1em;
+  margin: 0.6em;
+  display: flex;
+  border-radius: 5px;
+  font-size: 20px;
+}
+#weather img {
+  width: 20px;
+  height: 20px;
+}
+.wind img {
+  
+  width: 15px !important;
+  height: 25px !important; 
+}
+.future_forecast {
+  font-family: "Lato", sans-serif;
+  color: #757575;
+  background: #fff;
+  font-size: 1.2em;
+  font-weight: 900;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.future_forecast p {
+  text-align: center;
+}
+.forecast_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  padding: 2% 10%;
+  gap: 50px;
+}
+.forecast_tempeture {
+  display: flex;
+  gap: 30px;
+}
+
+.basse_temperture img {
+  width: 15px;
+  height: 10px;
+}
+.haut_temperture img {
+  width: 15px;
+  height: 10px;
+}
+
+.weather_forecast_item {
+  display: inline-block;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.temp {
+  font-size: 0.8em;
+}
+
+.day{
+  text-align: center;
+  text-transform: uppercase;
+}
+

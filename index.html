@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Weather App</title>
+</head>
+<body>
+   <div class="current_container">
+      <div onclick="getWeatherData()" class="changeLocation">
+         <p>use your location</p>
+      </div>
+     <div class="weather_container">
+          <div class="daynight_icon" id="daynight">
+            <img src="" alt="DN_icon">
+          </div>
+          <div class="temperature_value" id="tempvalue">
+          </div>
+          <div class="location">
+            <div class="time-zone" id="time-zone"></div>
+            <div id="country" class="country"></div>
+          </div>
+          <div class="temperature_description" id="temperature_description"></div>
+     </div>
+     <div id="caracteres_day" class="caracteres_day">
+      
+     </div>
+   </div>
+   <div class="future_forecast">
+      <p>5-Day Forecast</p>
+      <div class="forecast_item">
+      <div  id="weather_forecast_item">
+        
+      </div>   
+   </div>  
+      
+   </div>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <script src="./scripts.js"></script>
+</body>
+</html>
+
